@@ -1,38 +1,17 @@
-# create-svelte
+## Fullstack contact-form
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+A contact form that sends the form data to any mail you specify.
 
 ```bash
 # create a new project in the current directory
-npm create svelte@latest
+git clone https://github.com/Alxlol/contact-form
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# install dependencies
+npm install
 
-## Developing
+# you need to provide an email + password (where the form will be sent too and from)
+# either create a .env file and provide it with the required information or just fill it out manually in the +page.server.ts file
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
+# run dev server
 npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
