@@ -52,7 +52,7 @@ export const actions = {
 				pass: SECRET_COMPANY_PASSWORD
 			}
 		});
-		// Works but ugly, there's gotta be a better way, TODO: Read up on email templates
+		// TODO: Figure out proper email templating
 		let emailTemplate = `New message from:
 ${name}
 ${email}
