@@ -1,9 +1,9 @@
-## Contact form with SvelteKit and Nodemailer
+## Contact form with SvelteKit, Typescript and Nodemailer
 
 A contact form that sends the form data to any mail you specify.
 
 ```bash
-# create a new project in the current directory
+# clone project
 git clone https://github.com/Alxlol/contact-form
 
 # install dependencies
