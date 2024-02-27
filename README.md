@@ -4,7 +4,7 @@ A contact form that sends the form data to any mail you specify.
 
 ```bash
 # clone project
-git clone https://github.com/Alxlol/contact-form
+git clone https://github.com/Alxlol/contact-form-svelte
 
 # install dependencies
 npm install
