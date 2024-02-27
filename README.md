@@ -1,4 +1,4 @@
-## Fullstack contact-form
+## Contact form with SvelteKit and Nodemailer
 
 A contact form that sends the form data to any mail you specify.
 
